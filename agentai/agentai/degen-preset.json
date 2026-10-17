@@ -1,0 +1,23 @@
+{
+  "_comment": "Mode Degen — filter longgar untuk buru coin rame / momentum awal. Copy isi ini ke user-config.json atau aktifkan via Mini App.",
+  "mode": "degen",
+  "minTvl": 3000,
+  "maxTvl": 500000,
+  "minVolume": 200,
+  "minHolders": 150,
+  "minMcap": 40000,
+  "maxMcap": 50000000,
+  "minOrganic": 40,
+  "minQuoteOrganic": 40,
+  "minTokenFeesSol": 5,
+  "maxBotHoldersPct": 40,
+  "maxTop10Pct": 70,
+  "loneCandidateMinDegen": 35,
+  "opportunityMinScore": 28,
+  "screeningIntervalMin": 12,
+  "managementIntervalMin": 8,
+  "stopLossPct": -30,
+  "trailingTakeProfit": true,
+  "trailingTriggerPct": 4,
+  "trailingDropPct": 2
+}
